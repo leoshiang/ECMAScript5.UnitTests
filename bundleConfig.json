@@ -1,0 +1,9 @@
+﻿[
+  {
+    "outputFileName": "dist/collection-dist.js",
+    "inputFiles": [
+      "source/Collection.js"
+    ],
+    "sourceMap": true
+  }
+]

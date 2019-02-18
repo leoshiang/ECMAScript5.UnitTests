@@ -1,0 +1,25 @@
+{
+  "name": "es5-starter-kit",
+  "version": "1.0.0",
+  "description": "ES5 樣板專案，包含單元測試 QUnit、覆蓋率 Karma",
+  "main": "index.js",
+  "author": "Leo Shiang",
+  "repository": "https://github.com/leoshiang/ES5StarterKit",
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "^4.0.0",
+    "karma-coverage": "^1.1.2",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-qunit": "^2.1.0",
+    "karma-sonarqube-reporter": "^1.2.3",
+    "qunit": "^2.9.1",
+    "run-script-os": "^1.0.5",
+    "standard": "^12.0.1"
+  },
+  "scripts": {
+    "build": "run-script-os",
+    "build:win32": "call build-win32.bat",
+    "build:darwin": "sh ./build-darwin.sh",
+    "test": "karma start"
+  }
+}
