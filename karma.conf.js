@@ -3,7 +3,9 @@ module.exports = function(config) {
     frameworks: ['qunit'],
     plugins: ['karma-qunit', 'karma-coverage', 'karma-phantomjs-launcher'],
     files: [
+      'source/Utils.js',
       'source/Collection.js',
+      'source/Strings.js',
       'tests/Collection.test.js'
     ],
     exclude: [],

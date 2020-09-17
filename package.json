@@ -1,10 +1,10 @@
 {
-  "name": "es5-starter-kit",
+  "name": "ecmascripts.unittests",
   "version": "1.0.0",
-  "description": "ES5 樣板專案，包含單元測試 QUnit、覆蓋率 Karma",
+  "description": "ECMAScript 5 樣板專案，包含單元測試 QUnit、覆蓋率 Karma",
   "main": "index.js",
   "author": "Leo Shiang",
-  "repository": "https://github.com/leoshiang/ES5StarterKit",
+  "repository": "https://github.com/leoshiang/ECMAScript5.UnitTests",
   "license": "MIT",
   "devDependencies": {
     "karma": "^4.0.0",
@@ -18,8 +18,8 @@
   },
   "scripts": {
     "build": "run-script-os",
-    "build:win32": "call build-win32.bat",
-    "build:darwin": "sh ./build-darwin.sh",
+    "build:win32": "call build.bat",
+    "build:darwin": "sh ./build.sh",
     "test": "karma start"
   }
 }
