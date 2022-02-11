@@ -7,7 +7,7 @@
   "repository": "https://github.com/leoshiang/ECMAScript5.UnitTests",
   "license": "MIT",
   "devDependencies": {
-    "karma": "^4.0.0",
+    "karma": "^6.3.14",
     "karma-coverage": "^1.1.2",
     "karma-phantomjs-launcher": "^1.0.4",
     "karma-qunit": "^2.1.0",
