@@ -7,11 +7,11 @@
   "repository": "https://github.com/leoshiang/ECMAScript5.UnitTests",
   "license": "MIT",
   "devDependencies": {
-    "karma": "^4.0.0",
-    "karma-coverage": "^1.1.2",
+    "karma": "^6.4.2",
+    "karma-coverage": "^2.2.0",
     "karma-phantomjs-launcher": "^1.0.4",
-    "karma-qunit": "^2.1.0",
-    "karma-sonarqube-reporter": "^1.2.3",
+    "karma-qunit": "^4.1.2",
+    "karma-sonarqube-reporter": "^1.4.0",
     "qunit": "^2.9.1",
     "run-script-os": "^1.0.5",
     "standard": "^12.0.1"
